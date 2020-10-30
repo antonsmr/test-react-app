@@ -1,0 +1,32 @@
+.content {
+  &-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    img {
+      width: 800px;
+    }
+  }
+
+  &-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.video-list {
+  display: flex;
+  margin: 0 -10px;
+
+  &-item {
+    video {
+      width: 100%;
+      padding: 5px 0;
+    }
+  }
+}
