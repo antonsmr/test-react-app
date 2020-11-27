@@ -54,7 +54,7 @@ const LayoutComponent = (props) => {
         </div>
       </Content>
       <Footer className="footer">
-        DigitalSuits ©2020
+        AS ©2020
       </Footer>
     </Layout>
   );
